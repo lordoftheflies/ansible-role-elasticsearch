@@ -1,0 +1,5 @@
+---
+# roles/elasticsearch/vars/debian.yml
+
+# Debian specific vars
+elasticsearch_package_extension: 'deb'

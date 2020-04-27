@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - elasticsearch_deployment_users_home: /root
+    - elasticsearch_testing_provider: lxd
+
+  roles:
+    - elasticsearch
